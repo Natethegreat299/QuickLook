@@ -10,5 +10,5 @@ It collects system, network, and hardware information and generates styled HTML 
 - Works fully offline
 
 ## Usage
-Run `QuickLook.ps1` in PowerShell (RemoteSigned policy recommended).
-Reports are automatically generated in the `/Reports` folder.
+Run `QuickLook.bat` and it will start the script.
+Reports are automatically generated in the `/Reports` folder and after the script is run it will automatically open the report(s).
