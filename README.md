@@ -10,11 +10,15 @@ It collects system, network, and hardware information and generates styled HTML 
 - Works fully offline
 
 ## Usage
-Run `QuickLook_launcher.bat` and it will run the script.
+Open PowerShell in the QuickLook directory.  
+2. Run:
+   ```powershell
+   .\QuickLook.ps1
 Reports are automatically generated in the `/Reports` folder and will automatically open.
 
 
-Note: QuickLook is currently in an active development phase.
-The launcher temporarily uses ExecutionPolicy Bypass to allow smooth local execution, but future releases will include code-signing and/or executable packaging for improved security and ease of use.
+If QuickLook doesn’t start due to PowerShell’s execution policy,
+run the following command in PowerShell to allow the script for this session only: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-This project is designed primarily as a learning and diagnostic tool — showing how PowerShell can collect and present system data in HTML format.
+This temporarily allows QuickLook to run without permanently changing your system’s policy.
+After closing PowerShell, your normal security settings are restored automatically.
