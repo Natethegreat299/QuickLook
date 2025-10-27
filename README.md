@@ -18,7 +18,7 @@ Reports are automatically generated in the `/Reports` folder and will automatica
 
 
 If QuickLook doesn’t start due to PowerShell’s execution policy,
-run the following command in PowerShell to allow the script for this session only: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+run the following command in PowerShell to allow the script for this session only: ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
 
 This temporarily allows QuickLook to run without permanently changing your system’s policy.
 After closing PowerShell, your normal security settings are restored automatically.
