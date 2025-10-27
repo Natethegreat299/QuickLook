@@ -10,10 +10,8 @@ It collects system, network, and hardware information and generates styled HTML 
 - Works fully offline
 
 ## Usage
-Open PowerShell in the QuickLook directory.  
-2. Run:
-   ```powershell
-   .\QuickLook.ps1
+1. Open PowerShell in the QuickLook directory.  
+2. Run QuickLook.ps1 with Powershell
 Reports are automatically generated in the `/Reports` folder and will automatically open.
 
 
